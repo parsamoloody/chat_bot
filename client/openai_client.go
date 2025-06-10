@@ -2,9 +2,9 @@ package client
 
 import (
 	"bytes"
+	"chat_bot/config"
+	"chat_bot/models"
 	"encoding/json"
-	"exampe/chat/config"
-	"exampe/chat/models"
 	"fmt"
 	"io"
 	"net/http"

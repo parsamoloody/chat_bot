@@ -1,6 +1,6 @@
 package services
 
-import "exampe/chat/client"
+import "chat_bot/client"
 
 func AskGPT(prompt string) (string, error) {
 	return client.CallOpenAI(prompt)
